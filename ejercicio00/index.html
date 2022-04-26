@@ -7,23 +7,24 @@
     <title>Document</title>
 </head>
 <body>
-
-    
+<div>
+<h3>Suma basica</h3>
+<pre id="result">
+</pre>
+</div>
 <script>
-    
     // Primera forma de comentarios
     //  Mi primer hola
-
     // var <--- de preferencia ya no lo usen
-
     /* 
         let variables que pueden ser manipuladas con sus valores iniciales 
         const son variables que no deben ser alterados su valores iniciales    
     */
     console.log("Programa de sumas");
-    let a=5
-    let b=10
+    let a = 5;
+    let b = 10;
     const suma = a+b;
+    document.getElementById("result").innerHTML = "El resultado es " + suma;
     console.log("El resultado es " + suma);
 </script>
 </body>
