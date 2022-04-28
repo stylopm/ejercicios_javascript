@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        console.log('-------------------');
+        console.log('Estructuras de control');
+        console.log('-------------------');
+        // = valor a una variable
+        // == estoy comparando dos variables
+        // === estoy comparando dos variables del mismo tipo   
+        // !== contrario o diferente 
+        let varValidacion = true;
+        let numero = 10
+        if (varValidacion !== true) {
+            console.log('EL valor es positivo');
+        } else {
+            console.log('El valor es negativo');
+        }
+        console.log('------------------');
+        console.log('------------------');
+        // if else
+        if (numero === 5) {
+            console.log('Es numeró 5');
+        } else if (numero === 7) {
+            console.log('Es numeró 7');
+        } else {
+            console.warn('No es un numeró definido');
+        }
+        console.log('------------------');
+        console.log('------------------');
+
+        let condicionUno = 50;
+        let condicionDos = 100;
+        // operador and &&
+        // operador or ||
+        if ((condicionUno === 50) || (condicionDos === 10)) {
+            console.log('Se cumple condiciones ' +
+                (condicionUno === 50) + ' - ' + (condicionDos === 10));
+        } else {
+            console.log('No se cumple condiciones ' +
+                (condicionUno === 5) + ' - ' + (condicionDos === 10));
+        }
+        console.log('------------------');
+        console.log('------------------');
+        let numeroRango = 10;
+        if (numeroRango <= 7) {
+            console.log('Este numero ' + numeroRango +
+                ' Esta dentro de los primeros 7 numeros');
+        } else {
+            console.log('EL numero ' + numeroRango + ' esta fuera del rango del 7');
+        }
+    </script>
+</body>
+
+</html>
