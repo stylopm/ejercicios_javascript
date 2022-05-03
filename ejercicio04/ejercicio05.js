@@ -7,6 +7,9 @@ for (let ciclos = inicio; ciclos <= fin; ciclos++){
     console.log('numero es igual a ' + ciclos);
     if (ciclos === stop ){ break; }
 }
+const multiplicacion = function(tabla, number) {
+    return tabla * number;
+}
 
 let cicloDos = 1;
 while (cicloDos <= 10) {
@@ -14,12 +17,8 @@ while (cicloDos <= 10) {
     // cicloDos++;
     cicloDos = cicloDos+1;
 }
-
-
 /////////////////////////////////////////
 // funciones
-
-
 console.log( 'Invocación de funciones '  );
 console.log( multiplicacion(45, 9)  );
 console.log( '-----------------'  );
@@ -32,6 +31,9 @@ for (let ciclos = inicioTabla; ciclos <= finTabla; ciclos++){
     console.log( tablaRecorrido+"*"+ciclos+"="+multiplicacion(tablaRecorrido, ciclos));
 }
 
-const multiplicacion = function(tabla, number) {
-    return tabla * number;
+
+let lado = 5;
+const areaCuadrado = function(lado){
+    return lado * lado;
 }
+console.log('el area del cuadrado es ' + areaCuadrado(lado));
