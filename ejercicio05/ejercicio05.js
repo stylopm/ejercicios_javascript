@@ -16,14 +16,6 @@ arreglo.pop();
 arreglo.unshift(90);
 // 
 arreglo.shift();
-
-//////////////////////////////
-
-
-
-/////////////////
-
-
 // length nos trae el tamaño de nuestro arreglo
 // nos trea el numero de posiciones que tiene el arreglo
 for(let ciclo = 0; ciclo < arreglo.length; ciclo++){
