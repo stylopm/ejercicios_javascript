@@ -10,10 +10,28 @@ arreglo.push(70);
 console.log('********');
 console.log(arreglo);
 console.log('--------');
+// pop Elimina el ultimo elemento del arreglo
+arreglo.pop();
+// unshift Inicio
+arreglo.unshift(90);
+// 
+arreglo.shift();
+
+//////////////////////////////
+
+
+
+/////////////////
+
+
 // length nos trae el tamaño de nuestro arreglo
 // nos trea el numero de posiciones que tiene el arreglo
 for(let ciclo = 0; ciclo < arreglo.length; ciclo++){
     console.log( 'El valor es ->'+arreglo[ciclo]);
 }
+
+
+console.log(arreglo);
+
 ///// Metodos o funciones 
 //    sinonimo de acciones
