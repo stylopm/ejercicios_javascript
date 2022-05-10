@@ -38,3 +38,8 @@ tiendaDiscos.forEach(
         )
     }               
 )
+
+
+// Crear una funcion que me cambie el valor del nombre
+// del cualquier disco que yo quiera en mi arreglo
+cambiarNombre(posicionArreglo, nuevoNombreDisco)
