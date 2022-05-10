@@ -1,6 +1,6 @@
 console.log('Hola desde el ejemplo 03');
 // Ejemplo de switch
-let diaSemana = 6;
+let diaSemana = 1;
 switch (diaSemana) {
     //( diaSemana===1 )
     case 1:

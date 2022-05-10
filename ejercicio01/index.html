@@ -7,11 +7,16 @@
     <title>Document</title>
 </head>
 <body>
+<div>
+    <pre id="hola">
 
+    </pre>
+</div>
 <script>
     // Tipos de variables
     // Cadena o string
     let nombre = 'Juan Perez 1231321548 @#"!#$';
+    document.getElementById("hola").innerHTML='Ejemplo de cadenas ' + nombre;
     console.log('Ejemplo de cadenas ' + nombre);
     // Numeros, 
     let monedas = 5;
@@ -32,6 +37,7 @@
         genero: 'Rock',
         año: new Date('1985-02-20'),
         precio: 99.99,
+        valorM: 1000,
     };
     console.log('****' );
     console.log('Mi disco tiene un nombre es ' + discos.nombre);
@@ -39,6 +45,7 @@
     console.log('Mi disco tiene un genero es ' + discos.genero);
     console.log('Mi disco tiene un año es ' + discos.año);
     console.log('Mi disco tiene un precio es ' + discos.precio);
+    console.log('Mi disco llega a valer '+discos.valorM);
     console.log('****' );
 </script>
 </body>
