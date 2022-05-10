@@ -30,8 +30,10 @@ console.log(`El numero de discos son ${tiendaDiscos.length}`);
 // EMC6 funciones flechas () => { cuando hay mas de una acciones operaciones }
 tiendaDiscos.forEach(
     (disco, index) => {
-        console.log(`El disco número ${index + 1} es ${disco.nameDisc}`)
-        disco.tracks.forEach(
+        // Destructuración de objetos
+        let { tracks, nameDisc } = disco;
+        console.log(`El disco número ${index + 1} es ${nameDisc}`)
+        tracks.forEach(
             (pista) => console.log(pista)
         )
     }               
