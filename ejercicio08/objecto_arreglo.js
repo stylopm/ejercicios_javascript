@@ -24,10 +24,18 @@ let tiendaDiscos = [
 ]
 
 console.log(`El numero de discos son ${tiendaDiscos.length}`);
+// tiendaDiscos.forEach(
+//     function(disco){
+//     console.log(`El disco es ${disco.nameDisc} 
+//                  su precio es ${disco.price} 
+//                  y fue lanzado el día ${disco.date}`);
+//     }
+// )
+// EMC6 funciones flechas () => { cuando hay mas de una acciones operaciones }
 tiendaDiscos.forEach(
-    function(disco){
-    console.log(`El disco es ${disco.nameDisc} 
+    (disco, index) => 
+    console.log(`El disco numero ${index + 1} es ${disco.nameDisc} 
                  su precio es ${disco.price} 
-                 y fue lanzado el día ${disco.date}`);
-    }
+                 y fue lanzado el día ${disco.date}`)
+               
 )
